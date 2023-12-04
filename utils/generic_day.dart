@@ -20,7 +20,7 @@ abstract class GenericDay {
   set inputForTesting(String example) =>
       input = InputUtil.fromMultiLineString(example);
 
-  dynamic parseInput();
+  dynamic parseInput() => input;
   int solvePart1();
   int solvePart2();
 
